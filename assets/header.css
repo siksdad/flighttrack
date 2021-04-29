@@ -1,0 +1,66 @@
+.app-container {
+    height: 90%;
+    width: 90%;
+    display: flex;
+    flex-direction: row;
+    background-color:darkgrey
+    -webkit-box-shadow: 3px 3px 5px 6px #ccc;  /* Safari 3-4, iOS 4.0.2 - 4.2, Android 2.3+ */
+    -moz-box-shadow:    3px 3px 5px 6px #ccc;  /* Firefox 3.5 - 3.6 */
+    box-shadow:         3px 3px 5px 6px #ccc;  /* Opera 10.5, IE 9, Firefox 4+, Chrome 6+, iOS 5 */
+    border-radius: 10px;
+    margin: 30px;
+}
+.app-header {
+    position: fixed;
+    display: block;
+    flex-direction: column;
+    width: 30%;
+
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-right: 10px;
+    font-family: 'Helvetica';
+}
+.title {
+    padding: 10px;
+    font-size: smaller;
+    font-variant: small-caps;
+
+}
+.app-body {
+    display: inline-block;
+    
+    width: 70%;
+    margin-left: 250px;
+    margin-right: 50px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    padding: 10px;
+}
+#map  {
+    margin: 10px;
+}
+button {
+    width: 80px;
+
+}
+.radio {
+    flex-direction: row;
+    width: 300px;
+}
+.slider {
+    width: 200px;
+}
+#nplane {
+    width: 200px;
+    padding-left: 10px;
+}
+p {
+    margin: 10px;
+}
+input {
+    width: 120px;
+    margin-left: 10px;
+    margin-right: 10px;
+    padding-left: 10px;
+}
